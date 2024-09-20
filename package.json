@@ -1,0 +1,38 @@
+{
+  "name": "manzanascuidado",
+  "version": "1.0.0",
+  "description": "Proyecto Sena Soft 2023",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/niaduq1/ManzanasCuidado.git"
+  },
+  "keywords": [
+    "Mysql2",
+    "NodeJs",
+    "Nodemon",
+    "ManzanasCuidado"
+  ],
+  "author": "Stephania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niaduq1/ManzanasCuidado/issues"
+  },
+  "homepage": "https://github.com/niaduq1/ManzanasCuidado#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.6",
+    "sequelize-cli": "^6.6.2"
+  }
+}
